@@ -27,22 +27,22 @@ jobs:
       matrix:
         os: ["ubuntu-latest", "windows-2022"]
         type: ["cli",
-               #"dapp",
-               #"data_dependency",
-               #"path_filtering",
-               # "embark",
-               #"erc",
-               # "etherlime",
+               "dapp",
+               "data_dependency",
+               "path_filtering",
+                "embark",
+               "erc",
+                "etherlime",
                "etherscan",
-               #"find_paths",
+               "find_paths",
                "flat",
-               #"kspec",
+               "kspec",
                #"printers",
-               # "prop"
-               #"simil",
-               #"slither_config",
-               #"truffle",
-               #"upgradability"]
+                "prop"
+               "simil",
+               "slither_config",
+               "truffle",
+               "upgradability"]
         exclude:
           # Requires nix
           - os: windows-2022

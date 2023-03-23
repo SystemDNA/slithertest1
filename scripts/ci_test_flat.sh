@@ -4,7 +4,7 @@
 
 cd examples/flat || exit 1
 
-if ! slither-flat nft.sol; then
+if ! slither-flat b.sol; then
     echo "slither-flat failed"
     exit 1
 fi

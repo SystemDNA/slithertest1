@@ -37,7 +37,7 @@ jobs:
                "find_paths",
                "flat",
                "kspec",
-               #"printers",
+               "printers",
                 "prop"
                "simil",
                "slither_config",
